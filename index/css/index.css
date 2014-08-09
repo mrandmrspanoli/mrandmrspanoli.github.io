@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+  background: url('../images/bg%20copy.jpg') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font: 200 1.875em/1.38 'Source Sans Pro';
+  color: rgb(255, 255, 255);
+}
+
+.herotext {
+  float: left;
+  width: 53.5833333333%;
+  min-height: 148px;
+  margin: 222px 0 0 22.79948%;
+  font: normal 3em/1.38 Exmouth;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  float: left;
+  clear: both;
+  width: 52.8%;
+  min-height: 104px;
+  margin: 8px 0 0 23.5989583333%;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
