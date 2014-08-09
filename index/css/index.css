@@ -24,9 +24,22 @@ body {
   clear: both;
   width: 52.8%;
   min-height: 104px;
-  margin: 8px 0 0 23.5989583333%;
+  margin: 8px 0 0 23.59896%;
   font-size: 1em;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
+}
+
+@media(max-width: 320px) {
+  .herotext {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 2em;
+  }
+
+  .text {
+    margin-top: 54px;
+    margin-left: 23.6%;
+  }
 }
