@@ -13,6 +13,29 @@
 	cursor: pointer;
 	}
 
+  .service i {
+    font-style: italic;
+  }
+
+  i.typcn.typcn-th-menu {
+    font-size: 1em;
+  }
+
+#nav{
+  max-height: 70px;
+  min-height: 70px;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
+  z-index: 200;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
 
 
 	.navigation li a{ float: left; }

@@ -32,7 +32,7 @@ input{ -webkit-appearance: none; }
 .pad-large{
 	padding-top: 88px;
 	padding-bottom: 88px;
-	background-color: #f7f1e1;
+	background-color: #ffffff;
 }
 
 .pad-small{
@@ -52,11 +52,19 @@ input{ -webkit-appearance: none; }
   font-weight: 700;
 }
 
-h1, h2, h3, h4, h6{
+h1, h2, h4, h6{
 	letter-spacing: 10px;
 	text-transform: uppercase;
 	margin-right: -10px;
-	color: #544a43;
+	color: #000000;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+  text-transform: uppercase;
 }
 
 /** ELEMENTS **/
@@ -119,14 +127,14 @@ h1, h2, h3, h4, h6{
 
 
 #quote-divider-2{
-	background: url(../img/photo_03.jpg);
+	background: url(../img/photo_04.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
 }
 
 #quote-divider-3{
-	background: url(../img/photo_06.jpg);
+	background: url(../img/photo_05.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -237,7 +245,7 @@ h1, h2, h3, h4, h6{
 
 
 #registry{
-	background:url(../img/photo_04.jpg);
+	background:url(../img/photo_06.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -247,7 +255,7 @@ h1, h2, h3, h4, h6{
 	content:'';
 	width: 100%;
 	height: 100%;
-	background-color:rgba(0,0,0,0.3);
+	background-color:rgba(0,0,0,0.6);
 	position: absolute;
 }
 
@@ -297,12 +305,13 @@ h1, h2, h3, h4, h6{
 	max-height: 90px;
 	min-height: 90px;
 	overflow: hidden;
-	background-color: rgba(255,255,255,0.9);
+	background-color: #ffffff;
 	position: fixed;
 	top: 0px;
 	z-index: 200;
 	width: 100%;
 	text-align: center;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
 	transition: all .5s ease;
@@ -454,13 +463,19 @@ h1, h2, h3, h4, h6{
 
 /***************** ABOUT ***************/
 
+#list {
+	font-weight: 300;
+	color: #000000;
+	line-height: 40px;
+}
+
 #flight-text{
 	columns:200px 1;
 	-webkit-columns:200px 1; /* Safari and Chrome */
 	-moz-columns:200px 1; /* Firefox */
 	font-weight: 400;
 	margin-bottom: 66px;
-	color: #544a43;
+	color: #000000;
 	font-size: 14px;
 	line-height: 25px;
 }
@@ -494,9 +509,8 @@ h1, h2, h3, h4, h6{
 	columns:800px 1;
 	-webkit-columns:800px 1; /* Safari and Chrome */
 	-moz-columns:800px 1; /* Firefox */
-	font-weight: 400;
 	margin-bottom: 66px;
-	color: #544a43;
+	color: #000000;
 	font-size: 16px;
 	line-height: 30px;
 }
@@ -599,7 +613,7 @@ h1, h2, h3, h4, h6{
 
 .service{
 	padding: 15px;
-	border: 2px solid #544a43;
+	border: 2px solid #000000;
 	max-height: 132px;
 	overflow: hidden;
 	cursor: pointer;
@@ -612,7 +626,7 @@ h1, h2, h3, h4, h6{
 
 .open-service{
 	max-height: 2080px !important;
-border: 2px solid #544a43;
+border: 2px solid #000000;
 }
 
 .open-service .hr{
@@ -624,10 +638,12 @@ border: 2px solid #544a43;
 }
 
 .service i{
-	font-size: 42px;
+	color: #000000;
+	/*font-size: 42px;*/
 }
 
 .service h5{
+	color: #000000;
 	margin-top: 22px;
 	letter-spacing: 3px;
 	margin-right: -7px;
@@ -644,6 +660,7 @@ border: 2px solid #544a43;
 }
 
 .service p{
+	color: #000000;
 	font-weight: 400;
 	opacity: 0;
 	-webkit-transition: all .3s;
@@ -771,7 +788,7 @@ border: 2px solid #544a43;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	overflow: hidden;
-	background: url(../img/photo_07.JPG) no-repeat center center fixed;
+	background: url(../img/photo_footer.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -781,7 +798,7 @@ border: 2px solid #544a43;
 #contact-holder:before{
 	width: 100%;
 	height: 100%;
-	background-color:rgba(0,0,0,0.5);
+	background-color:rgba(0,0,0,0.9);
 	position: absolute;
 }
 

@@ -11,11 +11,11 @@ body {
 
 body {
   background: white;
-  color: #544a43;
+  color: #000000;
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
   font-style: normal;
   line-height: 1;
   position: relative;
@@ -799,12 +799,15 @@ p {
     font-style: italic; }
 
 p a{
-  font-family: 'Open Sans', sans-serif;
-  color: #f3847f;
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+  color: #5d3069;
   text-decoration: underline;
-  line-height: inherit; }
+  line-height: inherit;
+  text-transform: uppercase;
+}
   a:hover, a:focus {
-    color: #cc524c; }
+    color: #be9cd9; }
   a img {
     border: none; }
 }
@@ -1056,28 +1059,33 @@ blockquote p {
 
   .show-for-print {
     display: inherit !important; } }
+
 button, .button {
-  border-style: solid;
-  border-width: 1px;
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: bold;
-  line-height: 1;
-  margin: 0 0 1.25em;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 0.75em;
-  padding-right: 1.5em;
-  padding-bottom: 0.8125em;
-  padding-left: 1.5em;
-  font-size: 1em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
-  color: white; }
+border-style: solid;
+border-width: 2px;
+cursor: pointer;
+line-height: 1;
+margin: 0 0 1.25em;
+position: relative;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+padding-top: 0.75em;
+padding-right: 1.5em;
+padding-bottom: 0.8125em;
+padding-left: 1.5em;
+font-size: 1em;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+border-color: #000000;
+color: #000000;
+}
+
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2284a1; }
+    background-color: #000000;
+    color: #ffffff
+    box-shadow:none;
+     }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1208,14 +1216,14 @@ button, .button {
 
 @media only screen {
   button, .button {
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+/*    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/
+/*    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out; }
     button:active, .button:active {
-      -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
-      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
+  /*    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;*/
+/*      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }*/
     button.radius, .button.radius {
       -webkit-border-radius: 3px;
       border-radius: 3px; }
